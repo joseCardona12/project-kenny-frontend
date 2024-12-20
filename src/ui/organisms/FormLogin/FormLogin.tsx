@@ -58,7 +58,7 @@ export default function FormLogin():React.ReactNode{
                 control={control}
                 error={errors.password}
             />
-            <p className="login-link">Don't have a account?
+            <p className="login-link">Dont have a account?
                 <Link className="link" href="#">Sign up</Link>
             </p>
             <Button
