@@ -1,0 +1,13 @@
+form.form-login{
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-medium);
+
+  p.login-link{
+    font-size: .89rem;
+
+    .link{
+      color: var(--text-color-purple);
+    }
+  }
+}

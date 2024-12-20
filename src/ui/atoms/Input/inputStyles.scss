@@ -1,0 +1,15 @@
+div.content-input{
+  border-radius: var(--border-radius-medium);
+
+  input{
+    width: 100%;
+    outline: none;
+    padding: var(--padding-small);
+    background-color: var(--background-color-gray);
+    border-radius: var(--border-radius-medium);
+  }
+  .input-error{
+    color: var(--text-color-red);
+    font-size: .9rem;
+  }
+}
