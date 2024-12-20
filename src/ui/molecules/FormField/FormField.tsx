@@ -33,7 +33,6 @@ export default function FormField<T extends FieldValues>({
                 render={({field})=>(
                     <Input
                         {...field}
-                        id={id || label.toLowerCase()}
                         type={type}
                         placeholder={placeholder || `Enter your ${label.toLowerCase()}`}
                         error={error?.message}
